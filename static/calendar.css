@@ -1,0 +1,97 @@
+/* Calendar styling */
+
+table#calendar {
+    border: 1px solid #eee;
+    margin: 2px;
+    font-size: 18px;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+table#gamejam {
+    border: 1px solid #eee;
+    margin: 2px;
+    font-size: 18px;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+table#calendar td {
+    padding: 10px;
+    margin: 4px;
+    border: .5px solid #ccc;
+}
+table#calendar .td-left {
+    text-align: left;
+    text-decoration: none;
+}
+
+table#gamejam td {
+    padding: 10px;
+    margin: 4px;
+    border: .5px solid #ccc;
+}
+table#gamejam .td-left {
+    text-align: left;
+    text-decoration: none;
+}
+
+
+table#gamejam th{
+    background-color: rgb(156,39,176);
+    padding: 5px;
+    margin: 4px;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-weight: normal;
+}
+table#calendar th {
+    padding: 5px;
+    margin: 4px;
+    border: 1px solid #ccc;
+    background-color: rgb(63,81,181);
+    color: #fff;
+    font-weight: normal;
+}
+table#calendar .proj1 {
+    background-color: #c4e6ff;
+}
+table#calendar .proj2 {
+    background-color: #cbe9b0;
+}
+table#calendar .proj3 {
+    background-color: #ffe4b4;
+}
+table#calendar .gray-bg {
+    background: #eee;
+}
+
+table#calendar .white-bg {
+    background: #fff;
+}
+
+table#gamejam .gray-bg {
+    background: #eee;
+}
+
+table#calendar tr th:nth-child(2) {
+    
+}
+table#calendar tr th:nth-child(4) {
+    text-align: left;
+}
+table#calendar tr:not(:first-child):hover td:not(.weeknum) {
+    background: #ffffd8;
+}
+
+table#gamejam tr th:nth-child(2) {
+    
+}
+table#gamejam tr th:nth-child(4) {
+    text-align: left;
+}
+table#gamejam tr:not(:first-child):hover td:not(.weeknum) {
+    background: #ffffd8;
+}

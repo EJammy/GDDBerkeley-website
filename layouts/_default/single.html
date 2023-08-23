@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127221484-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-127221484-1');
+    </script>
+    <title>Game Design and Development</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Quicksand|Saira+Condensed" rel="stylesheet">
+
+    <!-- Material Design Lite (getmdl.io) files -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-light_green.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" id="navfont" href="index.php">
+                        <div style="height: 70px;"><img src="images/icon.png" style="width:50px;height:50px; "></div>
+                    </a>
+                </nav>
+                <span style="margin-left: -19px;" class="mdl-layout-title" id="titlefont">
+                    &ensp;
+                    GDD @ Berk
+                </span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <div class="dropdown">
+                        <a class="mdl-navigation__link dropbtn" id="navfont" href="club.php"> &ensp;Club &ensp; <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a target="_blank" href="https://tinyurl.com/GDDatBerkeley">Discord &ensp;<i class="fas fa-external-link-alt"></i></a>
+                            <a href="club.php?tab=about">About</a>
+                            <a href="club.php?tab=parties">Parties</a>
+                            <a href="club.php?tab=events">Events</a>
+                            <a href="funders.php">Funders</a>
+                            <a href="https://linktr.ee/gddatberk">LinkTree</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="mdl-navigation__link dropbtn" id="navfont" href="decal.php">&ensp;Decal &ensp;<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a target="_blank" href="https://tinyurl.com/s23gddapp">Apply
+                                &ensp;<i class="fas fa-external-link-alt"></i></a>
+                            <a href="decal.php?tab=syllabus">Syllabus</a>
+                            <a href="decal.php?tab=schedule">Schedule</a>
+                            <a href="decal.php?tab=labs">Labs</a>
+                        </div>
+                    </div>
+                    <a class="mdl-navigation__link" id="navfont" href="bearjams.php">Bear Jams</a>
+                    <a class="mdl-navigation__link" id="navfont" href="games.php">Games</a>
+                    <div class="dropdown">
+                        <a class="mdl-navigation__link dropbtn" id="navfont" href="staff.php"> &ensp;Staff &ensp; <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="staff.php?tab=officer">Officer</a>
+                            <a href="staff.php?tab=mentor">Mentor</a>
+                            <a href="staff.php?tab=facilitator">Facilitator</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <span class="mdl-layout-title" id="titlefont">GDD @ Berkeley</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" id="navfont" href="club.php">Club</a>
+                <a class="mdl-navigation__link" id="navfont" href="decal.php">Decal</a>
+                <a class="mdl-navigation__link" id="navfont" href="bearjams.php">Bear Jams</a>
+                <a class="mdl-navigation__link" id="navfont" href="games.php">Games</a>
+                <a class="mdl-navigation__link" id="navfont" href="staff.php">Staff</a>
+            </nav>
+        </div>
+    {{ .Content }}
+    </div>
+
+</body>
+
+</html>
