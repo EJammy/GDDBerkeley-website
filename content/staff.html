@@ -1,0 +1,50 @@
+---
+title: ""
+draft: true
+---
+<script type="text/javascript" src="staff.js"></script>
+<link rel="stylesheet" type="text/css" href="calendar.css">
+
+        <div class="background staff"></div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <h1 class="page-title">Staff</h1>
+                <div class="tabs-picker">
+                    <span id="officerLink">Officer</span>
+                    <span id="mentorLink">Mentor</span>
+                    <span id="facilitatorLink">Facilitator</span>
+                </div>
+                    <div id="officerPage">
+                        <div class="mdl-grid">
+                            <?php
+                            $file = file_get_contents("data/staff.json");
+                            $json = (array)json_decode($file, true);
+                            foreach ($json["Officers"] as $staff) {
+                                include 'templates/staff_member.php';
+                            }
+                            ?>
+                        </div>
+                    </div>
+                    <div id="facilitatorPage">
+                        <div class="mdl-grid">
+                            <?php
+                            $file = file_get_contents("data/staff.json");
+                            $json = (array)json_decode($file, true);
+                            foreach ($json["Facilitators"] as $staff) {
+                                include 'templates/staff_member.php';
+                            }
+                            ?>
+                        </div>
+                    </div>
+                    <div id="mentorPage">
+                        <div class="mdl-grid">
+                            <?php
+                            $file = file_get_contents("data/staff.json");
+                            $json = (array)json_decode($file, true);
+                            foreach ($json["Mentors"] as $staff) {
+                                include 'templates/staff_member.php';
+                            }
+                            ?>
+                        </div>
+                    </div>
+            </div>
