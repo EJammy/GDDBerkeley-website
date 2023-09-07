@@ -1,0 +1,469 @@
+[ {"semester": "Fall 2022", 
+"games": [{
+		"name": "Roboto's Escape",
+		"link": "https://guardhei.itch.io/rototos-escape",
+		"image": "https://img.itch.zone/aW1nLzEwOTU2MTM4LnBuZw==/315x250%23c/ucdy08.png"
+	}, {
+		"name": "ShipHex",
+		"link": "https://ethan2.itch.io/stratego",
+		"image": "https://img.itch.zone/aW1nLzEwMzc0NDM2LnBuZw==/315x250%23c/KFLRg7.png" 
+	}, {
+		"name": "Pigmental v.0",
+		"link": "https://fylthy-cazual.itch.io/pigmental-v0"
+	}, {
+		"name": "Stranded",
+		"link": "https://dtanxxx.itch.io/stranded",
+		"image": "https://img.itch.zone/aW1nLzEwOTY0MjAyLnBuZw==/315x250%23c/Xbbu46.png" 
+	}, {
+		"name": "Catharsis",
+		"link": "https://brybrybry.itch.io/catharsis",
+		"image": "https://img.itch.zone/aW1nLzEwNjU0ODY3LnBuZw==/315x250%23c/2liw7r.png" 
+	}, {
+		"name": "[ME][TA]L",
+		"link": "https://penguinies.itch.io/metal",
+		"image": "https://img.itch.zone/aW1nLzEwOTUzMzM3LnBuZw==/315x250%23c/Fef5fb.png" 
+	}, {
+		"name": "Package Runner 20xx",
+		"link": "https://explosivejam.itch.io/package-runner-20xx",
+		"image": "https://img.itch.zone/aW1nLzEwNjcwMjQwLnBuZw==/315x250%23c/gf%2B4st.png" 
+	}, {
+		"name": "Idol K-atcher",
+		"link": "https://joni23.itch.io/idol-k-atcher",
+		"image": "https://img.itch.zone/aW1nLzEwNjcwMDY2LnBuZw==/315x250%23c/puHpuN.png" 
+	}, {
+		"name": "The Archetype Syndicate",
+		"link": "https://skyesongss.itch.io/the-archetype-syndicate",
+		"image": "https://img.itch.zone/aW1nLzEwNjY5OTQ4LmpwZw==/315x250%23c/mhEgx8.jpg" 
+	}, {
+		"name": "Fiery and Icy",
+		"link": "https://fieryandicy.itch.io/fieryandicy",
+		"image": "https://img.itch.zone/aW1nLzEwNjc4NDIxLmpwZw==/315x250%23c/YC6SrF.jpg" 
+	}
+]},
+ 
+	{
+		"semester": "Spring 2022", 
+		"games": [{
+				"name": "Interwoven",
+				"link": "https://daidiimon.itch.io/interwoven",
+				"image": "https://img.itch.zone/aW1nLzkyNDM4NTMucG5n/original/neUQmH.png" 
+			}, 	{
+				"name": "The Blacksmith's Legacy",
+				"link": "https://sunzilore.itch.io/blacksmiths-legacy",
+				"image": "https://img.itch.zone/aW1nLzg4MDc4NTUucG5n/347x500/iKIXT%2B.png" 
+			}, {
+				"name": "Passing",
+				"link": "https://glumfrog.itch.io/passing",
+				"image": "https://img.itch.zone/aW1nLzg4MjIyNTkucG5n/315x250%23c/0iOHzg.png" 
+			}, {
+				"name": "The Apartment",
+				"link": "https://nataliesuboc.itch.io/the-apartment",
+				"image": "https://img.itch.zone/aW1nLzg3OTM5MDgucG5n/315x250%23c/b4F%2F5g.png" 
+			}, {
+				"name": "freeze()",
+				"link": "https://freeze-team.itch.io/freeze"
+			}, {
+				"name": "Spermulator",
+				"link": "https://circlecly.itch.io/spermulator",
+				"image": "https://img.itch.zone/aW1nLzg3OTM5MjYuanBlZw==/315x250%23c/TQrh0L.jpeg" 
+			}, {
+				"name": "Repellion",
+				"link": "https://barndens.itch.io/repellion",
+				"image": "https://img.itch.zone/aW1nLzg3Nzc4OTAucG5n/315x250%23c/FuQdQX.png" 
+			}, {
+				"name": "Don't Wake Up",
+				"link": "https://rosenbleu.itch.io/dont-wake-up",
+				"image": "https://img.itch.zone/aW1nLzg3NDAyMzMucG5n/315x250%23c/grTxC0.png" 
+			}, {
+				"name": "G.B.O",
+				"link": "https://guardhei.itch.io/gbo",
+				"image": "https://img.itch.zone/aW1nLzg1OTkyNjIucG5n/315x250%23c/vgLhbI.png" 
+			}, {
+				"name": "Cheese Fighter",
+				"link": "https://fylthy-cazual.itch.io/cheese-fighter-playtest-build"
+			}, {
+				"name": "Barkeley",
+				"link": "https://alstonchan.itch.io/barkeley",
+				"image": "https://img.itch.zone/aW1nLzg3OTM4MDQuanBn/315x250%23c/%2B3AySX.jpg" 
+			}
+		]
+	},
+	
+	{
+		"semester": "Fall 2021",
+		"games":[{
+				"name": "pengWIN",
+				"link": "https://alstonchan64.itch.io/pengwin",
+				"image": "https://img.itch.zone/aW1nLzc1ODc3NzkucG5n/347x500/J2O%2FXo.png" 
+			},
+			{
+				"name": "StamPunk",
+				"link": "https://kevponce4.itch.io/stampunk",
+				"image": "https://img.itch.zone/aW1nLzc2MDE2MzIucG5n/347x500/xYGNML.png" 
+			},
+			{
+				"name": "Super Squeak Fighter v.0",
+				"link": "https://fylthy-cazual.itch.io/super-squeak-fighter-v0",
+				"image": "https://img.itch.zone/aW1nLzg3OTgzOTEucG5n/original/7w32tT.png" 
+			},
+			{
+				"name": "Ööber",
+				"link": "https://guardhei.itch.io/oober",
+				"image": "https://img.itch.zone/aW1nLzc2MDEyNDcucG5n/347x500/bz66re.png" 
+			},
+			{
+				"name": "CollegeSim",
+				"link": "https://jeffyc.itch.io/collegesim",
+				"image": "https://img.itch.zone/aW1hZ2UvMTMwNDQ2NS83NjA2NjEzLnBuZw==/794x1000/p5gZGG.png" 
+			},
+			{
+				"name": "Bear's Bobaria",
+				"link": "https://zenuriken.itch.io/bears-bobaria",
+				"image": "https://img.itch.zone/aW1hZ2UvMTMwNDM3Ny83NjA3NTI2LnBuZw==/794x1000/Nj5yJR.png" 
+			},
+			{
+				"name": "RotoR",
+				"link": "https://minutemen.itch.io/rotor",
+				"image": "https://img.itch.zone/aW1nLzc0Nzc2MTAucG5n/160x126%23cm/l1fYrV.png" 
+			},
+			{
+				"name": "Boo's A Crowd",
+				"link": "https://kmkranen.itch.io/boos-a-crowd",
+				"image": "https://img.itch.zone/aW1nLzc1ODc3NzUucG5n/160x126%23cm/%2FDXVZx.png" 
+			},
+			{
+				"name": "Gaslight Gatekeep Girlboss",
+				"link": "https://alicia02s.itch.io/gaslight-gatekeep-girlboss",
+				"image": "https://img.itch.zone/aW1nLzc1ODc0NjYucG5n/347x500/FZcl%2FH.png"
+			},
+			{
+				"name": "BearWALK: The Game",
+				"link": "https://yohany99.itch.io/bearwalk-the-game",
+				"image": "https://img.itch.zone/aW1nLzc1ODczNTQucG5n/160x126%23cm/nH4r87.png"
+			},
+			{
+				"name": "Rat Sleuth",
+				"link": "https://ratsleuth.itch.io/rat-sleuth",
+				"image": "https://img.itch.zone/aW1nLzc1ODYyNjcucG5n/original/FFhHIh.png" 
+			}
+		]
+	},
+	
+	{
+		"semester": "Spring 2021",
+		"games": [{
+				"name": "Synergetica",
+				"link": "https://daidiimon.itch.io/synergetica"
+			},
+			{
+				"name": "Party Bears",
+				"link": "https://alstonchan64.itch.io/party-bears",
+				"image": "https://img.itch.zone/aW1nLzU4Nzg0NjkuanBn/original/85%2BW42.jpg" 
+			},
+			{
+				"name": "You are the Shopkeeper in an RPG",
+				"link": "https://urshopkeeper.itch.io/shopkeeper",
+				"image": "https://img.itch.zone/aW1nLzU4NDk5NjUucG5n/original/eheSfs.png" 
+			},
+			{
+				"name": "Lucid",
+				"link": "https://guardhei.itch.io/lucid",
+				"image": "https://img.itch.zone/aW1nLzU1MzQ3ODgucG5n/original/rwGNX9.png" 
+			},
+			{
+				"name": "Glade of the Gray",
+				"link": "https://fire2ken.itch.io/glade-of-the-gray",
+				"image": "https://img.itch.zone/aW1nLzU4NzAxNjYucG5n/original/NULGby.png" 
+			},
+			{
+				"name": "Caillou Goes to Cal",
+				"link": "https://c1rcu1t.itch.io/caillou-goes-to-cal",
+				"image": "https://img.itch.zone/aW1nLzU3NzQzMDQucG5n/original/Eeh3on.png" 
+			},
+			{
+				"name": "Cavern Blitz",
+				"link": "https://npels.itch.io/cavern-blitz",
+				"image": "https://img.itch.zone/aW1nLzU4NDkwNTAucG5n/original/61dUMX.png" 
+			},
+			{
+				"name": "CODA",
+				"link": "https://williamxu.itch.io/coda",
+				"image": "https://img.itch.zone/aW1nLzU4NTEzMTMuanBn/original/xh0MwA.jpg" 
+			},
+			{
+				"name": "Slime Attack",
+				"link": "https://kevponce4.itch.io/slime-attack"
+			},
+			{
+				"name": "Paper Cranes",
+				"link": "https://hekaiyo.itch.io/paper-cranes"
+			},
+			{
+				"name": "By A Thread",
+				"link": "https://notiiivan.itch.io/by-a-thread",
+				"image": "https://img.itch.zone/aW1nLzU4OTQwMjkucG5n/original/s54TTY.png" 
+			},
+			{
+				"name": "Homestead Hero",
+				"link": "https://homesteadhero.itch.io/game",
+				"image": "https://img.itch.zone/aW1nLzU0MDkxMDAucG5n/original/xP3SOc.png" 
+			},
+			{
+				"name": "The Great Sword of Everything",
+				"link": "https://stormsomething.itch.io/the-great-sword-of-everything",
+				"image": "https://img.itch.zone/aW1nLzU4NTI2NTEucG5n/original/7kKMOS.png" 
+			},
+			{
+				"name": "Stonekeeper",
+				"link": "https://stonekeeper.itch.io/stonekeeper"
+			}
+		]
+	},
+	
+	{
+		"semester": "Fall 2020",
+		"games": [{
+				"name": "Dungeonlite Duelers",
+				"link": "https://www.pixelperfect.games/dungeonliteduelers",
+				"image": "images/dungeonlite.png"
+			},
+			{
+				"name": "Polydrome",
+				"link": "https://guardhei.itch.io/polydrome",
+				"image": "https://img.itch.zone/aW1nLzQ2NTEyNDgucG5n/315x250%23c/MshHVD.png"
+			},
+			{
+				"name": "Oravia",
+				"link": "https://leekaling.itch.io/oravia",
+				"image": "https://img.itch.zone/aW1nLzQ3NTU3NzkucG5n/original/sbNuSA.png"
+			},
+			{
+				"name": "Deep State",
+				"link": "https://kimchikwon.itch.io/deep-state"
+			},
+			{
+				"name": "Forgotten Tomb",
+				"link": "https://juvenes.itch.io/forgotten-tomb",
+				"image": "https://img.itch.zone/aW1nLzQ3NTY4NjgucG5n/347x500/%2B0Ea%2BZ.png"
+			},
+			{
+				"name": "Furniture Dating",
+				"link": "https://njew25.itch.io/furniture-dating",
+				"image": "https://img.itch.zone/aW1nLzQ3NTcxMTYucG5n/315x250%23c/9XoDld.png"
+			},
+			{
+				"name": "Big Bang Blaster",
+				"link": "https://kevponce4.itch.io/big-bang-blaster"
+			},
+			{
+				"name": "Desolate Dragon",
+				"link": "https://fearthedragonmaster.itch.io/desolatedragon",
+				"image": "https://img.itch.zone/aW1nLzQ0NTU3MzUucG5n/315x250%23c/9A7htI.png"
+			},
+			{
+				"name": "Unnatural Selection",
+				"link": "https://c1rcu1t.itch.io/unnatural-selection",
+				"image": "https://img.itch.zone/aW1nLzQ3NDE0ODkucG5n/315x250%23c/z2Uyks.png"
+			},
+			{
+				"name": "Attack of the Boba Vampires",
+				"link": "https://troutstick.itch.io/bobavamps-01",
+				"image": "https://img.itch.zone/aW1nLzQ3MTI3NDYucG5n/315x250%23c/c6rLNR.png"
+			},
+			{
+				"name": "Nevaia",
+				"link": "https://vinlyau.itch.io/nevaia"
+			}
+		]
+	},
+	{
+		"semester": "Spring 2020",
+		"games": [{
+				"name": "Into the Dating Sim",
+				"link": "https://sparklyrainbows.itch.io/into-the-dating-sim",
+				"image": "https://img.itch.zone/aW1hZ2UvNjMxMDM3LzMzODE0NzIucG5n/794x1000/Jf%2Fg5b.png"
+			},
+			{
+				"name": "Steal the Spotlight",
+				"link": "https://ericzeno.itch.io/steal-the-spotlight",
+				"image": "https://img.itch.zone/aW1nLzMzOTQxOTMucG5n/original/sIsLf1.png"
+			},
+			{
+				"name": "Clone",
+				"link": "https://brian-royston.itch.io/clone",
+				"image": "https://img.itch.zone/aW1nLzMzODM4OTkuanBn/original/%2Fii3P8.jpg"
+			},
+			{
+				"name": "On Stolen Time",
+				"link": "https://jonathan2502.itch.io/on-stolen-time",
+				"image": "https://img.itch.zone/aW1nLzMzODUwNjYucG5n/347x500/qJdGsy.png"
+			},
+			{
+				"name": "Whisper of Souls",
+				"link": "https://arthurolga.itch.io/whisper-of-souls",
+				"image": "https://img.itch.zone/aW1nLzMyNjAyNTAucG5n/347x500/voOK%2By.png"
+			},
+			{
+				"name": "Don't Talk to the Wizard",
+				"link": "https://donttalktothewizard.itch.io/dont-talk-to-the-wizard-final",
+				"image": "https://img.itch.zone/aW1nLzMzODg5ODkucG5n/315x250%23c/gmK34b.png"
+			},
+			{
+				"name": "Kitsu Tama",
+				"link": "https://chobrandon.itch.io/kitsu-tama",
+				"image": "https://img.itch.zone/aW1hZ2UvNTg2Njk2LzMzOTA0NDYucG5n/794x1000/RCeWnU.png"
+			},
+			{
+				"name": "Ghost Quest: The Phantom Game",
+				"link": "https://ajsales.itch.io/ghost-quest",
+				"image": "https://img.itch.zone/aW1nLzMzNjg0OTYucG5n/347x500/rowLP7.png"
+			},
+			{
+				"name": "The Search For Questionable Content",
+				"link": "https://weylanwang.itch.io/questionablecontent",
+				"image": "https://img.itch.zone/aW1hZ2UvNTc0NDY4LzMwMjIzMTMucG5n/794x1000/6e82wK.png"
+			},
+			{
+				"name": "Within Me",
+				"link": "https://c1rcu1t.itch.io/within-me",
+				"image": "https://img.itch.zone/aW1nLzMzODEyMTUuanBn/315x250%23c/PcuYE9.jpg"
+			},
+			{
+				"name": "Jerry Mander: The Rise And Fall Of The American Dream",
+				"link": "https://funplings.itch.io/jerry-mander",
+				"image": "https://img.itch.zone/aW1nLzMzODIwNTQucG5n/315x250%23c/i8bZK5.png"
+			},
+			{
+				"name": "Bondfire",
+				"link": "https://daidiimon.itch.io/bondfire",
+				"image": "https://img.itch.zone/aW1nLzMzMDI0NTgucG5n/original/xy3Mv7.png"
+			},
+			{
+				"name": "Goodnight, Lucid Dream",
+				"link": "https://atimzhao.itch.io/goodnight-lucid-dream",
+				"image": "https://img.itch.zone/aW1nLzMzOTA4OTMucG5n/315x250%23c/Jgoe5X.png"
+			},
+			{
+				"name": "CyberRunner",
+				"link": "https://jkong22pc.itch.io/cyberrunner",
+				"image": "https://img.itch.zone/aW1nLzMzODkxNjgucG5n/315x250%23c/loe7D6.png"
+			}
+		]
+	},
+	{
+		"semester": "Fall 2019",
+		"games": [{
+				"name": "Zombie Football!",
+				"link": "https://apps.apple.com/us/app/zombie-football/id1493885643",
+				"image": "https://lh3.googleusercontent.com/GuCzM5XGuu1ldkn0T2aCdzEIfZFQ4hXmDNO0F3KTqV_QzhNSZJzMYajtuiaIm17oTMhQ=s360-rw"
+			},
+			{
+				"name": "Dusk Island",
+				"link": "https://uragano.itch.io/dusk-island",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMzNTQzLzI3NzM5OTIucG5n/794x1000/QQTK2k.png"
+			},
+			{
+				"name": "Radical Jumper",
+				"link": "https://eeease.itch.io/radical-jumper",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMyMjgvMjM2Mzk4LmpwZw==/794x1000/3%2B%2BMwm.jpg"
+			},
+			{
+				"name": "S'witch",
+				"link": "https://sparklyrainbows.itch.io/switch",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMwODcwLzI3NjczNzQucG5n/794x1000/tJoBDZ.png"
+			},
+			{
+				"name": "SEED",
+				"link": "https://seedhanyoung.itch.io/seed",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMyODU0LzI3NzA1ODEucG5n/794x1000/oEjuvq.png"
+			},
+			{
+				"name": "Hue",
+				"link": "https://thehuecreators.itch.io/hue",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMyOTIwLzI3NzA3MDEucG5n/794x1000/ENUe%2FM.png"
+			},
+			{
+				"name": "Jack of All Blades",
+				"link": "https://bladeforge.itch.io/jack-of-all-blades",
+				"image": "https://img.itch.zone/aW1nLzI3NzA0NzcucG5n/315x250%23c/w9abn2.png"
+			},
+			{
+				"name": "Palette Town",
+				"link": "https://jayl109.itch.io/palette-town",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMyMjM5LzI3Njk4OTcucG5n/794x1000/p9lQUt.png"
+			},
+			{
+				"name": "LEAVE",
+				"link": "https://estherc123.itch.io/leave",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMyOTk3LzI3NzIxMTgucG5n/794x1000/9e8M9p.png"
+			},
+			{
+				"name": "One Man's Sky",
+				"link": "https://red-abbey.itch.io/one-mans-sky",
+				"image": "https://img.itch.zone/aW1hZ2UvNTMyNjg1LzI3NzEyMTAucG5n/794x1000/C9IwqN.png"
+			}
+		]
+	},
+	{
+		"semester": "Spring 2019",
+		"games": [{
+				"name": "L.A.S.E.R.",
+				"link": "https://wespickering.itch.io/laser",
+				"image": "https://img.itch.zone/aW1nLzIwODgwOTEucG5n/347x500/cBbENz.png"
+			},
+			{
+				"name": "Roll-ette",
+				"link": "https://c1rcu1t.itch.io/roll-ette",
+				"image": "https://img.itch.zone/aW1nLzIwODU3OTAucG5n/347x500/pR4hol.png"
+			},
+			{
+				"name": "Hyper Strike",
+				"link": "https://daidiimon.itch.io/hyper-strike",
+				"image": "https://img.itch.zone/aW1nLzI0NjU3NjcucG5n/original/wSWswI.png"
+			},
+			{
+				"name": "Loot Dungeon",
+				"link": "https://stephenzhou.itch.io/loot-dungeon",
+				"image": "https://img.itch.zone/aW1hZ2UvNDE4OTc4LzIwODYwOTcucG5n/794x1000/dLlGJ7.png"
+			},
+			{
+				"name": "Murderhobos",
+				"link": "https://murderhobos.itch.io/murderhobos",
+				"image": "https://img.itch.zone/aW1nLzIwODYxNjIucG5n/315x250%23c/c4c9rX.png"
+			},
+			{
+				"name": "Planemo",
+				"link": "https://planemogame.itch.io/download",
+				"image": "https://img.itch.zone/aW1hZ2UvNDE4OTY5LzIwODc4MjEucG5n/794x1000/g4iJrn.png"
+			},
+			{
+				"name": "Shrouded by Darkness",
+				"link": "https://gloliva.itch.io/shrouded-by-darkness",
+				"image": "https://img.itch.zone/aW1hZ2UvNDE4ODQzLzIwODU0NzMucG5n/794x1000/F9USZb.png"
+			},
+			{
+				"name": "The Black Swordsman",
+				"link": "https://uncreative001.itch.io/the-black-swordsman",
+				"image": "https://img.itch.zone/aW1hZ2UvNDE4ODUyLzIwODYzODkucG5n/794x1000/M7uf%2F5.png"
+			},
+			{
+				"name": "Too Many Cooks",
+				"link": "https://daltondo.itch.io/too-many-cooks",
+				"image": "https://img.itch.zone/aW1hZ2UvNDE4OTcwLzIwODYwMDUucG5n/794x1000/cbeuah.png"
+			}
+		]
+	},
+	{
+		"semester": "Summer 2018",
+		"games": [{
+				"name": "Casuality Hacking",
+				"link": "https://sablen.itch.io/causality-hacking"
+			},
+			{
+				"name": "Zosar",
+				"link": "https://wespickering.itch.io/zosar",
+				"image": "https://img.itch.zone/aW1hZ2UvMjYxODc3LzEzMDAxMjIucG5n/315x250%23c/UlBF0A.png"
+			}
+		]
+	}
+]

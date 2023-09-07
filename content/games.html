@@ -6,15 +6,6 @@ draft: true
         <main class="mdl-layout__content">
             <div class="page-content">
                 <a href="https://gddberkeley.itch.io/" id="joindisc">Our itch.io Page</a>
-
-                <?php
-                $file = file_get_contents("data/games.json");
-                $json = (array)json_decode($file, true);
-                foreach ($json as $item) {
-                    $title = $item["semester"];
-                    $games = $item["games"];
-                    include 'templates/games_semester.php';
-                }
-                ?>
+                {{< games_semester >}}
 
             </div>

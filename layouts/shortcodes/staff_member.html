@@ -1,0 +1,32 @@
+{{ $role := .Get 0 }}
+{{ range .Site.Data.staff }}
+{{ if in .roles $role }}
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
+    {{ if and .image (fileExists (printf "static/%s" .image)) }}
+    <div class="mdl-card__title mdl-card--expand staff-member" style="background-image: url({{ .image }})"></div>
+    {{ else }}
+    <div class="mdl-card__title mdl-card--expand staff-member" style="background-image: url(/images/gddicon.png)"></div>
+    {{ end }}
+    <h2 class="mdl-card__title-text name" id="name">{{ .name }}</h2>
+    <h2 class="mdl-card__title-text description" id="bio">
+        {{ with .bio }}
+        "{{ . }}"
+        {{ else }}
+        "No bio yet!"
+        {{ end }}
+    </h2>
+    <h2 class="mdl-card__title-text description" id="quote">
+        {{ with .quote }}
+        "{{ . }}"
+        {{ else }}
+        "No quote yet"
+        {{ end }}
+    </h2>
+    <div class="mdl-card__actions mdl-card--border">
+        {{ .title }}
+        <button class="info-button" onclick="info(this, 'quote')" style="margin-left: 5px">Quote</button>
+        <button class="info-button" onclick="info(this, 'bio')">Bio</button>
+    </div>
+</div>
+{{ end }}
+{{ end }}

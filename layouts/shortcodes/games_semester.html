@@ -1,0 +1,8 @@
+{{ range .Site.Data.games }}
+<h1 class="section-title" id="games-bigger-heading">{{ .semester }}</h1>
+<div class="mdl-grid">
+    {{ range .games }}
+        {{ partial "game.html" . }}
+    {{ end }}
+</div>
+{{ end }}

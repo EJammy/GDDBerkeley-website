@@ -2,8 +2,8 @@
 title: ""
 draft: true
 ---
-<script type="text/javascript" src="staff.js"></script>
-<link rel="stylesheet" type="text/css" href="calendar.css">
+<script type="text/javascript" src="/staff.js"></script>
+<link rel="stylesheet" type="text/css" href="/calendar.css">
 
         <div class="background staff"></div>
         <main class="mdl-layout__content">
@@ -16,35 +16,17 @@ draft: true
                 </div>
                     <div id="officerPage">
                         <div class="mdl-grid">
-                            <?php
-                            $file = file_get_contents("data/staff.json");
-                            $json = (array)json_decode($file, true);
-                            foreach ($json["Officers"] as $staff) {
-                                include 'templates/staff_member.php';
-                            }
-                            ?>
+                            {{< staff_member "officer" >}}
                         </div>
                     </div>
                     <div id="facilitatorPage">
                         <div class="mdl-grid">
-                            <?php
-                            $file = file_get_contents("data/staff.json");
-                            $json = (array)json_decode($file, true);
-                            foreach ($json["Facilitators"] as $staff) {
-                                include 'templates/staff_member.php';
-                            }
-                            ?>
+                            {{< staff_member "facilitators" >}}
                         </div>
                     </div>
                     <div id="mentorPage">
                         <div class="mdl-grid">
-                            <?php
-                            $file = file_get_contents("data/staff.json");
-                            $json = (array)json_decode($file, true);
-                            foreach ($json["Mentors"] as $staff) {
-                                include 'templates/staff_member.php';
-                            }
-                            ?>
+                            {{< staff_member "mentors" >}}
                         </div>
                     </div>
             </div>

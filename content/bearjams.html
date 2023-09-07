@@ -7,25 +7,21 @@ draft: true
             <div class="page-content">
                 <h1 class="page-title">Congratulation to the Bear Jams Spring 2023 Winners!!</h1>
                 <div class="mdl-grid">
-                <?php
-                    $game = [
-                        "image" => "https://img.itch.zone/aW1nLzExNDk3MTk0LnBuZw==/315x250%23c/MHP190.png",
-                        "name" => "🥇 Antler Adventure 🥇",
-                        "link" => "https://emilnilsson.itch.io/antler-adventure",
-                    ];
-                    include 'templates/game.php';
-                    $game = [
-                        "image" => "https://img.itch.zone/aW1nLzExNTAzMTI1LnBuZw==/315x250%23c/ykVC6w.png",
-                        "name" => "🥈 Run For Baby! 🥈",
-                        "link" => "https://hilalu.itch.io/run-for-baby",
-                    ];
-                    include 'templates/game.php';
-                    $game = [
-                        "image" => "https://img.itch.zone/aW1nLzExNTAzOTg3LnBuZw==/315x250%23c/wXdypU.png",
-                        "name" => "🥉 The Dark Forest Trial 🥉",
-                        "link" => "https://eee0001.itch.io/the-dark-forest-trial",
-                    ];
-                    include 'templates/game.php';
+                    {{< game
+                        image="https://img.itch.zone/aW1nLzExNDk3MTk0LnBuZw==/315x250%23c/MHP190.png"
+                        name="🥇 Antler Adventure 🥇"
+                        link="https://emilnilsson.itch.io/antler-adventure"
+                        >}}
+                    {{< game
+                        image="https://img.itch.zone/aW1nLzExNTAzMTI1LnBuZw==/315x250%23c/ykVC6w.png"
+                        name="🥈 Run For Baby! 🥈"
+                        link="https://hilalu.itch.io/run-for-baby"
+                        >}}
+                    {{< game
+                        image="https://img.itch.zone/aW1nLzExNTAzOTg3LnBuZw==/315x250%23c/wXdypU.png"
+                        name="🥉 The Dark Forest Trial 🥉"
+                        link="https://eee0001.itch.io/the-dark-forest-trial"
+                        >}}
                 ?>
                 </div>
                 <h1 class="page-title" style="margin-bottom: 50px">Bear Jams Spring 2023</h1>
