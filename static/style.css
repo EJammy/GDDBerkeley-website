@@ -407,49 +407,6 @@ a > .event:hover{
   filter: none !important;
 }
 
-.background.home {
-  filter: hue-rotate(-25deg);
-  opacity: .2;
-}
-
-.background.games {
-  filter: hue-rotate(-85deg);
-  opacity: .2;
-}
-
-.background.events {
-  filter: hue-rotate(120deg);
-}
-
-.background.gamejams {
-  filter: hue-rotate(-110deg);
-}
-
-.background.decal {
-  filter: hue-rotate(30deg);
-  opacity: .2;
-}
-
-.background.club {
-  filter: hue-rotate(-60deg);
-  opacity: .2;
-}
-
-.background.labs {
-  filter: hue-rotate(-80deg);
-  opacity: .2;
-}
-
-.background.projects {
-  filter: hue-rotate(190deg);
-  opacity: .2;
-}
-
-.background.staff {
-  filter: hue-rotate(140deg);
-  opacity: .2;
-}
-
 .highlight {
   color: var(--main-color);
 }

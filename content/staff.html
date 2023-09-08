@@ -3,28 +3,26 @@ title: "Staffs"
 draft: true
 ---
 <script type="text/javascript" src="/staff.js"></script>
-<div class="background staff"></div>
-<main class="mdl-layout__content">
-    <div class="page-content">
-        <h1 class="page-title">Staff</h1>
-        <div class="tabs-picker">
-            <span id="officerLink">Officer</span>
-            <span id="mentorLink">Mentor</span>
-            <span id="facilitatorLink">Facilitator</span>
-        </div>
-        <div id="officerPage">
-            <div class="mdl-grid">
-                {{< staff_member "officer" >}}
-            </div>
-        </div>
-        <div id="facilitatorPage">
-            <div class="mdl-grid">
-                {{< staff_member "facilitators" >}}
-            </div>
-        </div>
-        <div id="mentorPage">
-            <div class="mdl-grid">
-                {{< staff_member "mentors" >}}
-            </div>
+<div class="page-content">
+    <h1 class="page-title">Staff</h1>
+    <div class="tabs-picker">
+        <span id="officerLink">Officer</span>
+        <span id="mentorLink">Mentor</span>
+        <span id="facilitatorLink">Facilitator</span>
+    </div>
+    <div id="officerPage">
+        <div class="mdl-grid">
+            {{< staff_member "officer" >}}
         </div>
     </div>
+    <div id="facilitatorPage">
+        <div class="mdl-grid">
+            {{< staff_member "facilitators" >}}
+        </div>
+    </div>
+    <div id="mentorPage">
+        <div class="mdl-grid">
+            {{< staff_member "mentors" >}}
+        </div>
+    </div>
+</div>
