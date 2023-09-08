@@ -1,0 +1,9 @@
+<div class="mdl-grid">
+{{ range .Site.Data.games }}
+    {{ range .games }}
+        {{ if (in $.Params .name) }}
+            {{ partial "game.html" . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+</div>
