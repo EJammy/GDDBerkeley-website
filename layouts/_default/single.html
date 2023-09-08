@@ -2,21 +2,15 @@
 <html>
 
 <head>
-
     <meta charset="UTF-8">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127221484-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-127221484-1');
-    </script>
-    <title>Game Design and Development</title>
+    {{ if .Title }}
+    <title>{{ .Title }} | GDD At Berkeley</title>
+    {{ else }}
+    <title>GDD At Berkeley</title>
+    {{ end }}
     <link rel="icon" type="image/png" sizes="32x32" href="/images/icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/icon.png">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Quicksand|Saira+Condensed" rel="stylesheet">
 
     <!-- Material Design Lite (getmdl.io) files -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -25,8 +19,6 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-
-    <!-- <script src="/main.js"></script> -->
 </head>
 
 <body>
@@ -42,7 +34,7 @@
                 </nav>
                 <span style="margin-left: -19px;" class="mdl-layout-title" id="titlefont">
                     &ensp;
-                    GDD @ Berk
+                    GDD@Berkeley
                 </span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
@@ -57,16 +49,7 @@
                             <a href="https://linktr.ee/gddatberk">LinkTree</a>
                         </div>
                     </div>
-                    <div class="dropdown">
-                        <a class="mdl-navigation__link dropbtn" id="navfont" href="/decal">&ensp;Decal &ensp;<i class="fas fa-caret-down"></i></a>
-                        <div class="dropdown-content">
-                            <a target="_blank" href="https://tinyurl.com/s23gddapp">Apply
-                                &ensp;<i class="fas fa-external-link-alt"></i></a>
-                            <a href="/decal?tab=syllabus">Syllabus</a>
-                            <a href="/decal?tab=schedule">Schedule</a>
-                            <a href="/decal?tab=labs">Labs</a>
-                        </div>
-                    </div>
+                    <a class="mdl-navigation__link" id="navfont" href="/decal">Decal</a>
                     <a class="mdl-navigation__link" id="navfont" href="/bearjams">Bear Jams</a>
                     <a class="mdl-navigation__link" id="navfont" href="/games">Games</a>
                     <div class="dropdown">
