@@ -1,0 +1,29 @@
+<style>
+.game-widget {
+    display: none;
+}
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const hiddenElements = document.querySelectorAll('.game-widget');
+        const shownElements = [];
+
+        while (shownElements.length < 3) {
+            const randomIndex = Math.floor(Math.random() * hiddenElements.length);
+            const randomElement = hiddenElements[randomIndex];
+            console.log(randomElement);
+
+            if (!shownElements.includes(randomElement)) {
+                shownElements.push(randomElement);
+                randomElement.style.display = 'block';
+            }
+        }
+    });
+</script>
+<div class="mdl-grid">
+{{ range .Site.Data.games }}
+    {{ range .games }}
+        {{ partial "game.html" . }}
+    {{ end }}
+{{ end }}
+</div>
