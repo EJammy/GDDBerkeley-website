@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PATH=$PATH:~/bin
+
 if rclone check gdrive:website-assets assets/gdrive; then
     echo "(¬‿¬) No differences detected."
 else
