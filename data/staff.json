@@ -83,7 +83,7 @@
         "name": "Connor Chang",
         "title": "Webmaster",
         "quote": "😜", 
-        "bio": " Hey! I’m Connor, a freshman studying CS. I like video games. I play all the games from the club!",
+        "bio": " Hey! I’m Connor, a sophomore studying CS. I like video games. I play all the games from the club!",
         "roles": ["officer"]
     },
     {
@@ -121,7 +121,7 @@
     {
         "name": "Billy Dao",
         "title": "Mentor",
-        "image": "billy.JPG",
+        "image": "billy.jpg",
         "quote": "Happy everyday",
         "bio": "Hello there, my name is Billy. I am a Joner intending to graduate with a major in history and a minor in CS. I like every kind of game other than horror games. My favorite game series are Pokemon, my favorite type of game is simulating games, for example, Stardew Valley. My favorite part of the pipeline for the gaming industry is Design. If you are interested in creating a GDD(which stands for Game design document here) for your game I am willing to help out!",
         "roles": ["mentors"]
@@ -151,7 +151,7 @@
     {
         "name": "Kaif",
         "title": "Mentor",
-        "image": "kaif.JPG",
+        "image": "kaif.png",
         "quote": "Oh-ho-ho! I can tell you’ll have some new stories tonight!",
         "bio": "Hello y’all! My name is Kaif and I’m currently a freshman studying EECS. I love indie games of all kinds, such as Hollow Knight, Hades, and Omori, and am also a huge Minecraft Modding geek. My strong suits when it comes to game development is music and game design, but I’m also experienced in using Unity for other utilities (i.e simulations), so hmu if you wanna talk about music or Indie Games.",
         "roles": ["mentors"]
