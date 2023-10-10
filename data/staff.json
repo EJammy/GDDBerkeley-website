@@ -2,7 +2,7 @@
     {
         "name": "Hailey Tran",
         "title": "President",
-        "image": "hailey_tran.JPG",
+        "image": "hailey_tran.jpg",
         "quote": "You just triggered my fight-or-flight response. But I'm a flightless bird... 🔫",
         "bio": "Hi! My name is Hailey, and I’m a junior studying computer science. I’ve loved video games for as long as I can remember, so I joined GDD to get involved with the community and learn how to make games!",
         "roles": ["officer"]
@@ -80,14 +80,6 @@
             "roles": ["officer"]
     },
     {
-        "name": "Avik Samanta",
-        "title": "Webmaster",
-        "image": "avikss.jpg",
-        "quote": "Is your refrigerator running?",
-        "bio": "Hey Whats up! I’m Avik, I’m a sophomore studying Cognitive Science and Data Science! I personally think that game development is a really fun collaborative and creative process. so I’ve been with GDD to engage with our amazing game development community here at Berkeley and help it grow and become even more epic :D",
-        "roles": ["officer"]
-    },
-    {
         "name": "Connor Chang",
         "title": "Webmaster",
         "quote": "😜", 
@@ -143,30 +135,6 @@
         "roles": ["mentors"]
     },
     {
-        "name": "Avik Samanta",
-        "title": "Mentor",
-        "image": "avikss.jpg",
-        "quote": "Is your refrigerator running?",
-        "bio": "Hey Whats up! I’m Avik! I’m a sophomore studying Cognitive Science and Data Science! I personally think that game development is a really fun collaborative and creative process. so I’ve been with GDD to engage with our amazing game development community here at Berkeley and help it grow and become even more epic : D. ",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Eduard Marozyan",
-        "title": "Mentor",
-        "image": "ed.jpg",
-        "quote": "TBD",
-        "bio": "Yo, my name's Ed, I’m just a generic CS senior here at Berkeley with a passion for game dev. I’ve been making games for about 3 years now and decided to try leading a team to make their own dream game come true. My favorite part of game development is design. I love to analyze the motivation behind certain game mechanics / design decisions and would love to share my knowledge.",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Ethan Bradley",
-        "title": "Mentor",
-        "image": "Ethan_Bradley.jpeg",
-        "quote": "Its better to do it now then later... or is it?",
-        "bio": "Hello! My name is Ethan and I am a senior studying Computer Science. I joined GDD during my freshman year and have been a mentor for 1 year. My role in GDD is to help manage finances and fundraising for the club.",
-        "roles": ["mentors"]
-    },
-    {
         "name": "Jackie",
         "title": "Mentor",
         "image": "Jackie_Dai.jpg",
@@ -175,11 +143,9 @@
         "roles": ["mentors"]
     },
     {
-        "name": "John",
+        "name": "Mateus",
         "title": "Mentor",
-        "image": "john_mentor.jpg",
-        "quote": "In n out 4x4 oh men",
-        "bio": "Hey! I’m a sophomore studying EECS who enjoys game development. I primarily work on game design, programming and UI/UX. However I have experience in most aspects of game dev so Im sort of a jack of all trades. I look forward to making games with you!",
+        "image": "mateus.jpg",
         "roles": ["mentors"]
     },
     {
@@ -188,11 +154,6 @@
         "image": "kaif.JPG",
         "quote": "Oh-ho-ho! I can tell you’ll have some new stories tonight!",
         "bio": "Hello y’all! My name is Kaif and I’m currently a freshman studying EECS. I love indie games of all kinds, such as Hollow Knight, Hades, and Omori, and am also a huge Minecraft Modding geek. My strong suits when it comes to game development is music and game design, but I’m also experienced in using Unity for other utilities (i.e simulations), so hmu if you wanna talk about music or Indie Games.",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Jane",
-        "title": "Mentor",
         "roles": ["mentors"]
     },
     {
