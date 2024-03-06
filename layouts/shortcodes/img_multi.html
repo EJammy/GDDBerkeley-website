@@ -28,7 +28,6 @@
   <a class="next" onclick="showSlides(1, {{ $slideshowId }}, {{ .Ordinal }})">❯</a>
 
 </div>
-<br>
 
 {{/* TODO: move script to asset */}}
 {{ if not (.Page.Scratch.Get "galleryLoaded") }}
@@ -37,6 +36,7 @@
 /* Slideshow container */
 .slideshow-container {
   position: relative;
+  margin: auto;
 }
 
 /* Hide the images by default */

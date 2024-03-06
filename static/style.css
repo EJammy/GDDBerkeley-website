@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
+/* hint: search for == for sections */
+
+/* == common == */
 :root {
   /* h2 and button */
   --blue1: #03A1FF;
@@ -20,6 +23,11 @@ body {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+p > a:not(.button) {
+  text-decoration: underline;
 }
 
 .content {
@@ -29,13 +37,28 @@ a {
 
 .columns-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 110px;
   justify-content: space-evenly;
 }
 
+@media (max-width: 800px) {
+  .columns-container {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    justify-content: space-evenly;
+  }
+}
+
+.asset-image {
+  /* margin: 48px auto; */
+  margin: auto;
+  display: block;
+}
+
 section {
-  padding: 120px;
+  padding: 60px;
 }
 
 footer {
@@ -51,10 +74,31 @@ p > mark {
   font-weight: 600;
 }
 
+h1 {
+  color: var(--orange1);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.center-text {
+  text-align: center;
+}
+
 h2 {
   color: var(--blue1);
   font-size: 45px;
-  font-weight: 800;
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--blue1);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Used for Decal Info */
+h4 {
+  margin: 0px;
 }
 
 main {
@@ -63,20 +107,24 @@ main {
   margin: auto;
 }
 
+/* probably change this to display: block */
 .button {
   padding: 12px;
+  margin: 6px;
   border-radius: 17px;
   background: var(--blue1);
 
   font-weight: bold;
   color: #FFF;
+  white-space: nowrap;
 }
 
 .button:hover {
+  background: color-mix(in srgb, var(--blue1) 80%, black);
 }
 
 
-/** nav bar (top bar) **/
+/* == nav bar (top bar) == */
 .nav-bar {
   padding: 12px 50px;
   font-size: 27px;
@@ -109,4 +157,37 @@ main {
 
 .nav-bar a:hover {
   color: var(--orange1);
+}
+
+/* == games == */
+.game-widget img {
+  width: 260px;
+  height: 260px;
+  border-radius: 20px;
+}
+
+.game-widget {
+  width: 260px;
+}
+
+.games-container {
+  display: flex;
+  overflow: auto;
+  padding: 20px;
+  gap: 60px;
+}
+
+.game-widget p {
+  color: var(--orange1);
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: auto;
+}
+
+/* == footer == */
+.footer-links {
 }

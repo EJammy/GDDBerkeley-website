@@ -18,34 +18,37 @@
 <body>
     <!-- TODO: small screen, scale image using pipeline -->
     <nav class="nav-bar">
-        <a class="nav-title" href="todo">
+        <a class="nav-title" href="/">
             <img src="/images/icon.png" width="80" height="80">
             <div>GDD@Berkeley</div>
         </a>
         <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="/club">Club</a>
+            <a href="/decal">Decal</a>
+            <a href="/bearjams">Bear Jam</a>
+            <a href="/games">Games</a>
+            <a href="/staff">Staff</a>
         </div>
     </nav>
     <main>
     {{ .Content }}
     </main>
     <footer>
-        <div id="footer-content">
-            <p id="footer-text">
-            Game Design and Development at Berkeley
-            <br>
-            We are a student group acting independently of the University of
-            California. We take full responsibility for our organization and this web site.
-            <br>
-            Sponsored by <a href="https://asuc.org/" target="_blank">ASUC</a>
-            </p>
-            <a href="https://www.ocf.berkeley.edu" target="_blank">
-                <img src="/images/ocf-hosted-penguin.svg" alt="Hosted by the OCF"/>
-            </a>
-        </div>
+
+        <p id="footer-text">
+        Game Design and Development at Berkeley
+        <br>
+        We are a student group acting independently of the University of
+        California. We take full responsibility for our organization and this web site.
+        <br>
+        Sponsored by <a href="https://asuc.org/" target="_blank">ASUC</a>
+        </p>
+        <a href="https://www.ocf.berkeley.edu" target="_blank">
+            <img src="/images/ocf-hosted-penguin.svg" alt="Hosted by the OCF"/>
+        </a>
+
         <div id="footer-links">
+            <!-- I think this works -->
             <a href="mailto:contact@gamedev.berkeley.edu">
                 <img src="/images/footer_icons/email.png" width="30" height="30">
             </a>
