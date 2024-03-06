@@ -20,7 +20,7 @@
         }
     });
 </script>
-<div class="mdl-grid">
+<div class="games-container" style="justify-content: space-evenly;">
 {{ range .Site.Data.games }}
     {{ range .games }}
         {{ partial "game.html" . }}

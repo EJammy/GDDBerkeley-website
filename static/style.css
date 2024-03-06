@@ -164,6 +164,7 @@ main {
   width: 260px;
   height: 260px;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 .game-widget {
@@ -189,5 +190,36 @@ main {
 }
 
 /* == footer == */
-.footer-links {
+
+footer {
+  margin-top: 32px;
+  padding: 55px;
+  text-align: center;
+
+  /* needed for ocf-badge to work */
+  position: relative;
+}
+footer h5 {
+  margin: 10px;
+
+  color: var(--orange1);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#ocf-badge {
+  position: absolute;
+  display: block;
+  right: 30px;
+  bottom: 30px;
+}
+
+#footer-links {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+#footer-links > a {
+  display: block;
 }
