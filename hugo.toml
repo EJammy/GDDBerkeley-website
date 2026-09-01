@@ -1,3 +1,7 @@
 baseURL = 'https://gamedesign.berkeley.edu/'
 languageCode = 'en-us'
 title = 'Game Design and Development at Berkeley'
+
+# Hugo >= 0.157 blocks raw HTML content files (content/*.html) by default
+[security]
+allowContent = ['^text/html$']
